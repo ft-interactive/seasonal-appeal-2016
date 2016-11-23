@@ -372,8 +372,153 @@
 
 
 </div><div id="coming-soon-section-5147" class="section section-html">
-    <!-- Replace this and the code below with your own HTML -->
-<h3 class="text-center">This is a panel where we trail other content</h3>
+  <!-- START TEASERS -->
+  <aside class="ft-teasers">
+    <div>
+      <header>
+        <h2>More reports</h2>
+      </header>
+
+      <div class="ft-teasers__articles">
+
+        <a href="https://www.ft.com/content/b3898322-b09d-11e6-a37c-f4a01f1b0fa1">
+          <article>
+            <h3><span>A letter from the FT’s Editor</span></h3>
+            <h4><span>Nov 24th 2016</span></h4>
+            <p><span>Lionel Barber introduces this year’s seasonal appeal in support of Medecins Sans Frontieres</span></p>
+          </article>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=9Eh96RmoFu4">
+          <article>
+            <h3><span>The world's emergency service – in 360</span></h3>
+            <h4><span>Nov 24th 2016</span></h4>
+            <p><span>This powerful film by the FT’s Charlie Bibby shows MSF’s Congo mission in immersive video</span></p>
+          </article>
+        </a>
+
+        <a href="https://www.ft.com/content/d1880024-b09d-11e6-a37c-f4a01f1b0fa1">
+          <article>
+            <h3><span>Congo confidential</span></h3>
+            <h4><span>Nov 24th 2016</span></h4>
+            <p><span>Read David Pilling’s road diary - on caterpillar stew, bucket showers, and a heroic Belgian nurse</span></p>
+          </article>
+        </a>
+
+        <a href="https://msf.org.uk/ft">
+          <article>
+            <h3><span>Donate now</span></h3>
+            <h4><span>Nov 24th 2016</span></h4>
+            <p><span>Please click here to donate immediately to MSF through the FT’s Seasonal Appeal</span></p>
+          </article>
+        </a>
+
+      </div>
+    </div>
+  </aside>
+
+  <style>
+    .ft-teasers {
+      background-color: #fff1e0;
+      text-align: left;
+      padding: 1px 0;
+    }
+
+    .ft-teasers * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .ft-teasers > div {
+      padding: 20px 10px 0;
+    }
+
+    .ft-teasers > div > header {
+      width: 100%;
+      position: relative;
+    }
+
+    .ft-teasers > div > header:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 50%;
+      height: 9px;
+      width: 100%;
+      margin-top: -13px;
+      background: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjQiIGhlaWdodD0iNCIgdmlld0JveD0iMCAwIDQgNCI+PHBhdGggZD0iTTAgMGgxdjFIMHoiIGZpbGw9IiMwMDAiLz48L3N2Zz4=) repeat transparent;
+    }
+
+    .ft-teasers > div > header > h2 {
+      text-transform: uppercase;
+      display: inline-block;
+      background-color: #fff1e0;
+      padding: 5px 10px 5px 0;
+      font: 400 23px Metric, sans-serif;
+      margin-bottom: 10px;
+    }
+
+    .ft-teasers__articles > a:link,
+    .ft-teasers__articles > a:visited {
+      display: block;
+      color: #444;
+      border-left: 2px solid #E5D8C9;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+    .ft-teasers__articles > a:hover {
+      border-left-color: #55524F;
+      border-bottom: 0;
+    }
+    .ft-teasers__articles > a span {
+      border-bottom: 1px dotted transparent;
+    }
+    .ft-teasers__articles > a:hover span {
+      border-bottom-color: #505050;
+    }
+
+    .ft-teasers__articles h3 {
+      font: 400 26px Metric, sans-serif;
+    }
+
+    .ft-teasers__articles h4 {
+      font: 400 12px Metric, sans-serif;
+      text-transform: uppercase;
+    }
+    .ft-teasers__articles p {
+      font: 400 18px Metric, sans-serif;
+      margin-top: 10px;
+    }
+
+    @media (min-width: 490px) {
+      .ft-teasers > div {
+        padding: 40px 20px 0;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+    }
+
+    /*@media (min-width: 740px) {}*/
+
+    @media (min-width: 980px) {
+      .ft-teasers > div {
+        max-width: 980px;
+      }
+
+      .ft-teasers__articles:after {
+        content: '';
+        display: block;
+        clear: both;
+      }
+
+      .ft-teasers__articles > a {
+        width: 25%;
+        float: left;
+        padding-right: 20px;
+      }
+    }
+  </style>
+  <!-- END TEASERS -->
 </div><div id="msf-35771" class="section section-text inner-column-centered "
 
 >
@@ -1393,7 +1538,7 @@
   })();
 </script>
 <![endif]-->
-<div id="donate-button-more-on-5150" class="section section-html">
+<div id="donate-button-more-on-5150" class="section section-html" style="background-color:#fff1e0">
 
   <!-- START TEASERS -->
   <aside class="ft-teasers">
@@ -1439,109 +1584,19 @@
       </div>
     </div>
   </aside>
-
-  <style>
-    .ft-teasers {
-      background-color: #fff1e0;
-      text-align: left;
-      padding: 1px 0;
-    }
-
-    .ft-teasers * {
-      margin: 0;
-      padding: 0;
-    }
-
-    .ft-teasers > div {
-      padding: 20px 10px 0;
-    }
-
-    .ft-teasers > div > header {
-      width: 100%;
-      position: relative;
-    }
-
-    .ft-teasers > div > header:before {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 50%;
-      height: 9px;
-      width: 100%;
-      margin-top: -13px;
-      background: url(data:image/svg+xml;charset=utf-8;base64,PHN2ZyAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgd2lkdGg9IjQiIGhlaWdodD0iNCIgdmlld0JveD0iMCAwIDQgNCI+PHBhdGggZD0iTTAgMGgxdjFIMHoiIGZpbGw9IiMwMDAiLz48L3N2Zz4=) repeat transparent;
-    }
-
-    .ft-teasers > div > header > h2 {
-      text-transform: uppercase;
-      display: inline-block;
-      background-color: #fff1e0;
-      padding: 5px 10px 5px 0;
-      font: 400 23px Metric, sans-serif;
-      margin-bottom: 10px;
-    }
-
-    .ft-teasers__articles > a:link,
-    .ft-teasers__articles > a:visited {
-      display: block;
-      color: #444;
-      border-left: 2px solid #E5D8C9;
-      padding-left: 10px;
-      margin-bottom: 20px;
-    }
-    .ft-teasers__articles > a:hover {
-      border-left-color: #55524F;
-      border-bottom: 0;
-    }
-    .ft-teasers__articles > a span {
-      border-bottom: 1px dotted transparent;
-    }
-    .ft-teasers__articles > a:hover span {
-      border-bottom-color: #505050;
-    }
-
-    .ft-teasers__articles h3 {
-      font: 400 26px Metric, sans-serif;
-    }
-
-    .ft-teasers__articles h4 {
-      font: 400 12px Metric, sans-serif;
-      text-transform: uppercase;
-    }
-    .ft-teasers__articles p {
-      font: 400 18px Metric, sans-serif;
-      margin-top: 10px;
-    }
-
-    @media (min-width: 490px) {
-      .ft-teasers > div {
-        padding: 40px 20px 0;
-        max-width: 800px;
-        margin: 0 auto;
-      }
-    }
-
-    /*@media (min-width: 740px) {}*/
-
-    @media (min-width: 980px) {
-      .ft-teasers > div {
-        max-width: 980px;
-      }
-
-      .ft-teasers__articles:after {
-        content: '';
-        display: block;
-        clear: both;
-      }
-
-      .ft-teasers__articles > a {
-        width: 25%;
-        float: left;
-        padding-right: 20px;
-      }
-    }
-  </style>
   <!-- END TEASERS -->
+
+  <!-- O-COMMENTS -->
+<div id="comments" style="max-width:800px;margin: 0 auto;"
+      data-o-component="o-comments" data-o-comments-config-title="Students &#x2018;ill-prepared for university&#x2019;"
+      data-o-comments-config-url="https://www.ft.com/content/1eae9e08-aff9-11e6-a37c-f4a01f1b0fa1"
+      data-o-comments-config-articleid="1eae9e08-aff9-11e6-a37c-f4a01f1b0fa1">
+</div>
+<link rel="stylesheet" href="https://origami-build.ft.com/v2/bundles/css?modules=o-comments@^3.2.0">
+<script src="https://origami-build.ft.com/v2/bundles/js?modules=o-comments@^3.2.0"></script>
+<style>.comment-header{position:static !important;}</style>
+
+<!-- END O-COMMENTS -->
 
 </div>
     </div>
