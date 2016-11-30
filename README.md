@@ -1,4 +1,4 @@
-Seasonal Appeal 2016 stories included here:
+SHORTHAND: Seasonal Appeal 2016 stories included here:
 
 # Congo emergency
 David Pilling joins MSF’s team battling typhoid in a remote village in DRC
