@@ -11,3 +11,9 @@ https://ig.ft.com/seasonal-appeal/2016/iraq/
 # Hunger mission
 MSF has treated 4000 children for malnutrition in North Cameroon. Maggie Fick reports
 https://ig.ft.com/seasonal-appeal/2016/cameroon/
+
+# Haiti’s babies
+Jude Webber meets the mothers and newborns in a life-saving maternity unit
+https://ig.ft.com/seasonal-appeal/2016/haiti/
+
+ENDS
